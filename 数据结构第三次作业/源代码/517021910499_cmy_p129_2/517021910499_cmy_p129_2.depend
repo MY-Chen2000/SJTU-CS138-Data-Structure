@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1538621235 source:d:\program_cpp\517021910499_cmy_p129_2\main.cpp
+	<iostream>
+	"queue2.h"
+	"time.h"
+	<ctime>
+	<stdlib.h>
+
+1538621100 d:\program_cpp\517021910499_cmy_p129_2\queue2.h
+

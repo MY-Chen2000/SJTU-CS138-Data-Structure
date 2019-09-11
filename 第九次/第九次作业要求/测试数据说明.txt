@@ -1,0 +1,18 @@
+sort目录为排序测试数据，graph目录为图测试数据。
+
+对于graph目录：
+
+bfs&dfs1.txt和bfs&dfs2.txt用于测试bfs和dfs，bfs&dfs1.txt是无向图，bfs&dfs2.txt是有向图，这两个文件的数据格式为：
+第一行有三个整数N,M和K,N表示点个数，M表示边的个数，K表示测试用例个数。点的名称为1,2,...,N.接下来有M行表示边。
+在这M行中，每一行表示一条边，有两个整数a b，对于无向图表示点a和点b之间有边，对于有向图表示有点a到点b的边，不代表有点b到点a的边。
+接下来会有K行，每一行表示一个测试用例，有两个整数a b, 请分别利用bfs和dfs判断图中是否有点a到点b的路径。若有，输出Yes,否则，输出No
+
+Kruscal&Prim.txt用于测试Kruscal和Prim，Kruscal&Prim.txt表示一个无向图，数据格式为:
+第一行有两个整数N和M，N表示点个数，M表示边的个数，点的名称为1,2,...,N.接下来有M行表示边。
+在这M行中，每一行表示一条边，有三个整数a b weight，表示点a和点b之间有边且权重为weight
+请分别使用Kruscal和Prim求最小生成树，并把最小生成树的边输出出来。
+
+Floyd&Dijkstra1.txt和Floyd&Dijkstra2.txt用于测试Floyd和Dijkstra1，Floyd&Dijkstra1.txt是无向图，Floyd&Dijkstra2.txt是有向图，这两个文件的数据格式为:
+第一行有两个整数N和M，N表示点个数，M表示边的个数，点的名称为1,2,...,N.接下来有M行表示边。
+在这M行中，每一行表示一条边，有三个整数a b weight，对于无向图表示点a和点b之间有边且权重为weight，对于有向图表示点a到点b之间有边且权重为weight
+请分别使用Floyd和Dijkstra1求出点1到其他各个点的最短路径。

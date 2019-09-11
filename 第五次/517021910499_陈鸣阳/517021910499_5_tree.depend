@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1541243743 source:d:\program_cpp\517021910499_5_tree\main.cpp
+	<iostream>
+	"mytree.h"
+	<ctime>
+	<windows.h>
+	"time.h"
+	<Mmsystem.h>
+
+1541241429 d:\program_cpp\517021910499_5_tree\mytree.h
+	<fstream>
+	<iostream>
+	<math.h>
+	<istream>
+	"stack2.h"
+
+1540623282 d:\program_cpp\517021910499_5_tree\queue.h
+
+1538575648 d:\program_cpp\517021910499_5_tree\stack2.h
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1538641008 source:d:\program_cpp\517021910499_cmy_p129_5\main.cpp
+	<iostream>
+	"queue2.h"
+	"windows.h"
+	"seekshortestpath.h"
+
+1538644648 d:\program_cpp\517021910499_cmy_p129_5\queue2.h
+	<iostream>
+	<iostream>
+
+1538644637 d:\program_cpp\517021910499_cmy_p129_5\seekshortestpath.h
+	<iostream>
+

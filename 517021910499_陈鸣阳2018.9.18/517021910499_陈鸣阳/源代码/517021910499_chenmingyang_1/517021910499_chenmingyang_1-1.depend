@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1537175242 source:d:\program_cpp\517021910499_chenmingyang_1-1\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<time.h>
+	<windows.h>
+
+1537176037 source:c:\users\tz\desktop\517021910499_chenmingyang_1-1\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<time.h>
+	<windows.h>
+

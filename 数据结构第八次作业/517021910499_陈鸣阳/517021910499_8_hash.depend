@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1543997975 source:d:\program_cpp\517021910499_8_hash\main.cpp
+	<iostream>
+	"hash.h"
+	"string.h"
+	<string>
+	<sstream>
+
+1543995614 d:\program_cpp\517021910499_8_hash\hash.h
+	"dst.h"
+	"lll_int.h"
+	<sstream>
+	"string.h"
+	<string>
+	<ctime>
+
+1543923640 d:\program_cpp\517021910499_8_hash\dst.h
+	<iostream>
+	"math.h"
+	<fstream>
+	"string.h"
+	"time.h"
+	"random.h"
+	<algorithm>
+	<iostream>
+	<vector>
+
+1543928706 d:\program_cpp\517021910499_8_hash\random.h
+	<iostream>
+	"stdlib.h"
+	"time.h"
+	"string.h"
+	<cstring>
+	<sstream>
+	"lll_int.h"
+
+1543922089 d:\program_cpp\517021910499_8_hash\lll_int.h
+	<iostream>
+	<string>
+	<algorithm>
+

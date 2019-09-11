@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1543130286 source:d:\program_cpp\517021910499_7_avl\main.cpp
+	<iostream>
+	"dst.h"
+	"avl.h"
+
+1543129025 d:\program_cpp\517021910499_7_avl\dst.h
+	<iostream>
+	"math.h"
+	<fstream>
+	"string.h"
+	"time.h"
+	"random.h"
+	<algorithm>
+	<iostream>
+	<vector>
+
+1543128588 d:\program_cpp\517021910499_7_avl\avl.h
+	"dst.h"
+
+1543119789 d:\program_cpp\517021910499_7_avl\random.h
+	<iostream>
+	"stdlib.h"
+	"time.h"
+

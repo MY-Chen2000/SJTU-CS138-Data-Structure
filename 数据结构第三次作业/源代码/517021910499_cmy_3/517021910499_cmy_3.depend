@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1538573711 source:d:\program_cpp\517021910499_cmy_3\main.cpp
+	<iostream>
+	<stack>
+	<vector>
+	<time.h>
+	<windows.h>
+	<ctime>
+	"stack.h"
+
+1538572679 d:\program_cpp\517021910499_cmy_3\stack.h
+	"linear_list.h"
+
+1538314966 d:\program_cpp\517021910499_cmy_3\linear_list.h
+	<iostream>
+	<cstdio>
+	<vector>
+
+1538648860 source:d:\program_cpp\数据结构c作业记录\数据结构第三次作业\源代码\517021910499_cmy_3\main.cpp
+	<iostream>
+	<stack>
+	<vector>
+	<time.h>
+	<windows.h>
+	<ctime>
+	"stack.h"
+
+1538572679 d:\program_cpp\数据结构c作业记录\数据结构第三次作业\源代码\517021910499_cmy_3\stack.h
+	"linear_list.h"
+
+1538314966 d:\program_cpp\数据结构c作业记录\数据结构第三次作业\源代码\517021910499_cmy_3\linear_list.h
+	<iostream>
+	<cstdio>
+	<vector>
+

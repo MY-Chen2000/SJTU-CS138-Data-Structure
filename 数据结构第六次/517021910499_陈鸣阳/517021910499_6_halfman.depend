@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1541602484 source:d:\program_cpp\517021910499_6_halfman\main.cpp
+	<iostream>
+	"halfman.h"
+
+1541605590 d:\program_cpp\517021910499_6_halfman\halfman.h
+	"string.h"
+	<fstream>
+	<iostream>
+	<istream>
+	"linear_list.h"
+
+1538314966 d:\program_cpp\517021910499_6_halfman\linear_list.h
+	<iostream>
+	<cstdio>
+	<vector>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1547277591 source:d:\test\week15_pro\main.cpp
+	<iostream>
+	<cstddef>
+	<cstdlib>
+	<fstream>
+	<string>
+	<ctime>
+

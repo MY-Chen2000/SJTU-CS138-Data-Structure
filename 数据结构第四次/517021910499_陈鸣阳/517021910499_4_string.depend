@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1540123003 source:d:\program_cpp\517021910499_4_string\main.cpp
+	<iostream>
+	"mystring.h"
+	"stdlib.h"
+	<ctime>
+	<windows.h>
+	"time.h"
+	<Mmsystem.h>
+
+1540121425 d:\program_cpp\517021910499_4_string\mystring.h
+	<iostream>
+	<cmath>
+	<ctime>
+	"stdlib.h"
+	<string>
+

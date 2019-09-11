@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1538479501 source:d:\program_cpp\517021910499_chenmingyang\main.cpp
+	<iostream>
+	"linear_list.h"
+	<cstdio>
+	<sstream>
+	<fstream>
+	<string>
+	<time.h>
+	<windows.h>
+	<ctime>
+	<cstdlib>
+
+1538314966 d:\program_cpp\517021910499_chenmingyang\linear_list.h
+	<iostream>
+	<cstdio>
+	<vector>
+
+1538479501 source:d:\program_cpp\数据结构c作业记录\数据结构第二次作业\517021910499_陈鸣阳_线性表\main.cpp
+	<iostream>
+	"linear_list.h"
+	<cstdio>
+	<sstream>
+	<fstream>
+	<string>
+	<time.h>
+	<windows.h>
+	<ctime>
+	<cstdlib>
+
+1538314966 d:\program_cpp\数据结构c作业记录\数据结构第二次作业\517021910499_陈鸣阳_线性表\linear_list.h
+	<iostream>
+	<cstdio>
+	<vector>
+

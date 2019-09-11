@@ -1,0 +1,161 @@
+template<class TypeOfVer,class TypeOfEdge>
+class adjMatrixGraph:public graph<TypeOfVer,TypeOfEdge>
+{
+public:
+    adjMatrixGraph(int vSize,const TypeOfver d[],const TypeOfEdge noEdgeFlag);
+    void insert(TypeOfVer x,TypeOfVer y,TypeOfEdge w);
+    void remove(TypeOfVer x,TypeOfVer y);
+    bool exist(TypeOfVer x,TypeOfVer y)const;
+    ~adjMatrixGraph();
+
+private:
+    TypeOfEdge **edge;
+    TypeOfVer *ver;
+    TyprOfEdge noEdge;
+    int find(TypeOfVer v)const
+    {
+        for(int i=0;i<vers;++i)
+            if(ver[i]==v) return i;
+    }
+};
+
+template<class TypeOfVer,class TypeOfEdge>
+adjMatrixGraph<TypeOfVer,TypeOfEdge>::adjMatrixGraph(int vSize,const TypeOfVer d[],const TypeOfEdge noEdgeFlag)
+{
+    int i,j;
+    vers=vSize;
+    edges=0;
+    nodge=noEdgeFlag;
+
+    ver=new TypeOfVer[vSize];
+    for(i=0;i<vSize;++i) ver[i]=d[i];
+
+    edge=new TypeOfEdge*[vSize];
+    for(i=0;i<vSize;++i)
+    {
+        edge[i]=new TypeOfEdge[vSize];
+        for(j=0;j<vSize;++i) edge[i][j]=noedge;
+        edge[i][j]=0;
+    }
+}
+
+
+template<class TypeOfVer,,class TypeOfEdge>
+void adjListGraph<TypeOfVer,TypeOfEdge>::kruskal()const
+{
+    int edgesAccepted=0,u,v;
+    edgeNode*p;
+    edge e;
+    DijointSet ds(Vers);
+    priorityQueue<edge> pq;
+
+    for(int i=0;i<Vers;++i)
+    {
+        for(p=verList[i].head;)
+    }
+}
+
+
+
+template<class Type
+template<class TypeOfVer,class TypeOfEdge>
+void adjListGraph<TypeOfVer,TypeOfEdge>::dijkstra(TypeOfVer start,TypeOfEdge noEdge)const
+{
+    TypeOfEdge *distance=new TypeOfEdge[Vers];
+    int *prev=new int[Vers];
+    bool *known=new bool[Vers];
+
+    int u,sNo,i,j;
+    edgeNode *p;
+    TypeOfEdge min;
+
+    for(i=0;i<Vers;++i)
+    {
+        known[i]=false;
+        distance[i]=noEdge;
+    }
+
+    sNo=find(start);
+
+    distance[sNo]=0;
+    prev[sNo]=sNo;
+
+    for(i=1;i<Vers;++i)
+    {
+        min=noEdge;
+        for(j=0;j<Vers;++j)
+        {
+            if(!known[j]&&distance[j]<min)
+            {
+                min=distance[j];
+                u=j;
+            }
+        }
+        known[u]=true;
+        for(p=verList[u].head;p!=NULL;p=p->next)
+        {
+            if(!known[p->end]&&distance[p->end]>min+p->weight)
+            {
+                distance[p->end]=min+p->weight;
+                prev[p->end]=u;
+            }
+        }
+
+        for(i=0;i<Vers;++i)
+        {
+            cout<<"从"<<start<<"到"<<verlist[i].ver<<"的路径为:"<<endl;
+            printPaths(sNo,i,prev);
+            cout<<"\t长度为："<<distance[i]<<endl;
+        }
+    }
+}
+
+template<class TypeOfVer,class TypeOfEdge>
+void adjMatrixGraph<TypeOfVer,TypeOfEdge>::floyd()const
+{
+    TypeOfEdge **d=new TypeOfEdge*[Vers];
+    int **prev=new int *[Vers];
+    int i,j,k;
+
+    for(i=0;i<Vers;++i)
+    {
+        d[i]=new TypeOfEdge[Vers];
+        prev[i]=new int[Vers];
+        for(j=0;j<Vers;++j)
+        {
+            d[i][j]=edge[i][j];
+            prev[i][j]=(edge[i][j]!=noEdge)?i:-1;
+        }
+    }
+
+    for(k=0;k<Vers;++k)
+    {
+        for(i=0;i<Vers;++i)
+        {
+            for(j=0;j<Vers;++j)
+            {
+                if(d[i][k]+d[k][j]<d[i][j])
+                {
+                    d[i][j]=d[i][k]+d[k][j];
+                }
+            }
+        }
+    }
+
+    cout<<"最短路径长度"<<endl;
+    for(i=0;i<Vers;++i)
+    {
+        cout<<endl;
+        for(j=0;j<Vers;++j)
+        {
+            cout<<d[i][j]<<'\t';
+        }
+    }
+
+    cout<<"最短路径"<<endl;
+    for(i=0;i<Vers;++i)
+    {
+        cout<<endl;
+        for(j=0;j<Vers;++j)cout<<prev[i][j]<<'\t';
+    }
+}

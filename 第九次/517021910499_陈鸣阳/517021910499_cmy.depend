@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1547535061 source:d:\program_cpp\517021910499_cmy\main.cpp
+	"sort.h"
+	"matrixgraph.h"
+	"listgraph.h"
+	<iostream>
+	<fstream>
+	<ctime>
+	"test.h"
+
+1547520273 d:\program_cpp\517021910499_cmy\sort.h
+	<iostream>
+	<fstream>
+
+1547535531 d:\program_cpp\517021910499_cmy\matrixgraph.h
+	<iostream>
+
+1547524013 d:\program_cpp\517021910499_cmy\listgraph.h
+	"matrixgraph.h"
+	"disjointset.h"
+	"linkq.h"
+	"prioque.h"
+
+1547485625 d:\program_cpp\517021910499_cmy\disjointset.h
+
+1547485719 d:\program_cpp\517021910499_cmy\linkq.h
+
+1547485822 d:\program_cpp\517021910499_cmy\prioque.h
+
+1547522131 d:\program_cpp\517021910499_cmy\test.h
+	"sort.h"
+	"matrixgraph.h"
+	"listgraph.h"
+	<iostream>
+	<fstream>
+
